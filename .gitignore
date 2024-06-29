@@ -8,7 +8,6 @@
 build/
 
 # Miscellaneous
-*.log
 *.tmp
 *.swp
 *.bak
