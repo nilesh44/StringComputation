@@ -1,5 +1,37 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-.idea
-# Ignore Gradle build output directory
-build
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+build/
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+*.javadoc
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Maven
+target/
