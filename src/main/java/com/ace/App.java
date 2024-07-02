@@ -3,12 +3,26 @@
  */
 package com.ace;
 
+import java.util.stream.Collectors;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
+
+
+        String s="String";
+       String s1= s.chars()
+               .mapToObj((c)->String.valueOf((char)c))
+               .filter((ss)->!ss.equals("i"))
+               .collect(Collectors.joining());
+try {
+    System.out.println(StringOperations.reverseString(s));
+}catch(Exception e){
+    System.out.println(e);
+}
         System.out.println(new App().getGreeting());
     }
 }
